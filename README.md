@@ -1,4 +1,7 @@
 
+Miro board
+https://miro.com/app/board/uXjVO_CQssw=/
+
 This repository contains code samples and documentation for **Emissions Prediction Calculator API (EPC)**.
 
 The code samples are intended to allow a quick start and show how you can query API in **Python** and **C#**. Additionally sample **Postman** collection file was provided to allow querying the API via GUI.
