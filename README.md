@@ -1,6 +1,7 @@
 
-Miro board
-https://miro.com/app/board/uXjVO_CQssw=/
+Problem: https://store.veracity.com/norshipping-2022
+
+Miro board: https://miro.com/app/board/uXjVO_CQssw=/
 
 Swagger Editor: https://editor.swagger.io
 
