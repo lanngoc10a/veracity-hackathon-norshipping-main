@@ -15,7 +15,7 @@
 				"header": [
 					{
 						"key": "Ocp-Apim-Subscription-Key",
-						"value": "{{subscribtion-key}}",
+						"value": "0bb1372fc63f43e5a0679cc665eeb57d",
 						"type": "text"
 					}
 				],
