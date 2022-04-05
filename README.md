@@ -2,8 +2,10 @@
 Miro board
 https://miro.com/app/board/uXjVO_CQssw=/
 
-https://editor.swagger.io
-Swagger Editor
+Swagger Editor: https://editor.swagger.io
+
+Postman: https://www.postman.com/
+
 
 
 
@@ -39,5 +41,4 @@ Code samples summary:
 
 2.	Sample project in Python: Codesamples for accessing API and query data. If you choose to save subscription_key in the text file make sure the path in function `get_subscription_key` is correct, this will depend on how you run the code. To build queries, pass parameter-names and the value to `build_get_vessel_parameters`. List of parameter-names can be found in API documentation. IMO is the only required parameter. You need to install `requests` by enter following command to terminal: `pip3 install requests`
 3.	Sample collection file in Postman:  
-You can import the collection file into Postman `(File -> Import)`. Once imported a new collection **EPC API Hackaton** is created and can be used to query the API. You need to replace header parameter `{{subscribtion-key}}` with a subscription key you have received.  You can get Postman form here https://www.postman.com/
-
+You can import the collection file into Postman `(File -> Import)`. Once imported a new collection **EPC API Hackaton** is created and can be used to query the API. You need to replace header parameter `{{subscribtion-key}}` with a subscription key you have received.  You can get Postman form here 
