@@ -99,6 +99,15 @@
                             "type": "string"
                         }
                     }
+                    ,
+                    {
+                        "name": "km_not",
+                        "in": "query",
+                        "description": "Fuel type to be considered for the boiler consumbtion for the emissions estimate. Overwriting the model assumption.",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
                 ],
                 "responses": {
                     "200": {
@@ -115,21 +124,11 @@
                                     "ae_fuel_type": "MGO",
                                     "boiler_fuel_type": "MGO",
                                     "duration_h": 354.5,
-                                    "me_fuel_cons_metric_metric_tons": 0.1,
-                                    "ae_fuel_cons_metric_metric_tons": 0.1,
-                                    "boiler_fuel_cons_metric_metric_tons": 0.1,
-                                    "total_co2_emission_metric_tons": 0.1,
-                                    "total_so2_emission_metric_tons": 0.1,
-                                    "total_particulate_matter_emission_metric_tons": 0.1,
-                                    "total_nox_emission_metric_tons": 0.1,
-                                    "total_nmvoc_emission_metric_tons": 0.1,
-                                    "total_ch4_emission_metric_tons": 0.1,
-                                    "total_n2o_emission_metric_tons": 0.1,
-                                    "total_co_emission_metric_tons": 0.1,
-                                    "total_black_carbon_emission_metric_tons": 0.1,
-                                    "total_organic_carbon_emission_metric_tons": 0.1,
-                                    "transport_work": 0.1,
-                                    "eeoi": 0.1
+                                    "number of ship_A": 20,
+                                    "number of ship B": 3,
+                                    "number of ship C": 0,
+                                    "total_co2_emission": 0.129
+                                 
                                 }
                             }
                         }

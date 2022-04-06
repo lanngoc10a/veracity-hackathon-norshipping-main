@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #FFFFFF;
+	background-size: 100%;
+	color: #000;
+	font-family: "Posten Sans Regular", sans-serif;
+	font-size: 10pt;
+}
+
+/* headers */
+h1, h2, h3, h4, h5 { font-family: "Posten Sans Bold"; padding-bottom: 10px; }
+h1 { font-size: 16pt; color: #000; padding-bottom: 0; }
+h2, h3, h4 { color: #000000; }
+
+*[data-dash-is-loading="true"]{
+	opacity: .2;
+}
+
+.dash-graph {
+	/*padding: 20px;*/
+}
+
+.header { margin-bottom: 40px; background: #FFFFFF; padding: 40px; }
+
+.page { padding: 40px; /*width: 1500px; */ margin: 0 auto; }
+
+.section {
+	margin: 30px 0px;
+	padding: 20px;
+	/*background: RGBA(0, 158, 105, .6); */
+	background: #FFFFFF;
+}
+
+.center { text-align: center; }
+
+
+input { padding: 5px; margin: 0 5px; }
+
+.rc-slider-track { background-color: #7BC144; }
+
+.rc-slider-dot-active, .rc-slider-handle { border-color: #7BC144; }
+
+#week-filter-container { margin: 0 5%; padding-bottom: 50px; }
+
+#status { margin: 10px 0; padding: 5px 0; }
+
+#status * { padding: 5px 20px; }
+
+#accuracy-disp { background: #7BC144; }
+
+.Select--multi .Select-value {
+	background-color: #F1F7E9;
+	border-color: #00643A;
+	color: #00643A;
+}
+
+.grid {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.grid-column {
+	flex-direction: column;
+}
+
+#sec-performance .dash-graph {
+	height: 300px;
+	width: 30%;
+}
+
+#sec-terminals .dash-graph {
+	width: 45%;
+	height: 300px;
+}
+
+#sec-timeseries .dash-graph {
+	height: 300px;
+	width: 60%
+}
+
+#sec-timeseries .histogram.dash-graph {
+	width: 30%
+}
