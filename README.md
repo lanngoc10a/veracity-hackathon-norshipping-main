@@ -5,7 +5,7 @@ Miro board: https://miro.com/app/board/uXjVO_CQssw=/
 
 Swagger Editor: https://editor.swagger.io
 
-Postman: https://www.postman.com/
+Postman: https://bold-station-51680.postman.co/workspace/Team-Workspace~fc0f2e0d-ca74-4c34-8754-b99c04fa4d76/request/20366184-f7bca1a2-6060-4cfb-b0da-9a74b474adcd
 
 
 
